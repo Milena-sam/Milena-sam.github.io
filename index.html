@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milena Sampaio | Portfolio para o Lab da DIO</title>
+  <meta name="description" content="Portfolio de Milena Sampaio, desenvolvedora em formação, apresentando projetos e habilidades em HTML, CSS e JavaScript.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo-ms.png" alt="Logo MS">
+      </a>
+    </div>
+     <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Transformando cada aprendizado em código e cada código em evolução, um projeto de cada vez.</h1>
+      <p>Construindo minha jornada na programação. Buscando aprimorar minhas habilidades a cada desafio. </p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/Milena-sam" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/milena-sampaio/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>CONHEÇA MEUS PROJETOS</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+        <div class="main__content2">
+        <img src="assets/images/projetos.jpeg" alt="Imagem de Projetos">
+        </div>
+     </main>
+
+  <section class="technologies">
+    <h2>Tecnologias em aprendizado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/html.png" alt="Logo HTML">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/css.png" alt="Logo CSS">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/js.png" alt="Logo JavaScript">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projeto3.png" alt="Capa clone YouTube">
+        <div class="card__body">
+          <h3 class="card__title">Clone do YouTube</h3>
+          <p class="card__description">Clone do YouTube desenvolvido com foco na prática de CSS Flexbox.</p>
+          <ul class="card__list">
+            <li class="card__item">Listagem de vídeos;</li>
+            <li class="card__item">Reprodução de vídeos.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/html.png" alt="Logo HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/css.png" alt="Logo CSS">
+            </li>
+          </ul>
+        <div class="card__buttons">
+        <a href="https://milena-sam.github.io/Desafio-2_CSS_DIO/" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+            <span>Prévia</span>
+            <i class="bi bi-arrow-up-right"></i>
+        </a>  
+        <a href="https://github.com/Milena-sam/Desafio-2_CSS_DIO" class="btn" target="_blank" rel="noopener noreferrer">
+            <span>Repositório</span>
+        </a>  
+        </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projeto4.png" alt="Capa Layout responsivo Discord">
+        <div class="card__body">
+          <h3 class="card__title">Layout Responsivo do Site Discord</h3>
+          <p class="card__description">Reproduzir uma página da plataforma Discord, colocando em prática os conceitos aprendidos, principalmente sobre Responsividade no CSS.</p>
+          <ul class="card__list">
+            <li class="card__item">Reprodução de interface;</li>
+            <li class="card__item">Responsividade com CSS;</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/html.png" alt="Logo HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/css.png" alt="Logo CSS">
+            </li>
+          </ul>
+        <div class="card__buttons">
+        <a href="https://milena-sam.github.io/Desafio-3_CSS_DIO/" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+            <span>Prévia</span>
+            <i class="bi bi-arrow-up-right"></i>
+        </a>  
+        <a href="https://github.com/Milena-sam/Desafio-3_CSS_DIO" class="btn" target="_blank" rel="noopener noreferrer">
+            <span>Repositório</span>
+        </a>  
+        </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projeto1.png" alt="Capa Wikipedia">
+        <div class="card__body">
+          <h3 class="card__title">Recriando o Wikipedia com Layout Moderno</h3>
+          <p class="card__description">Este projeto é uma página HTML semântica e acessível inspirada no estilo da Wikipédia.</p>
+          <ul class="card__list">
+            <li class="card__item">Acessibilidade web;</li>
+            <li class="card__item">Inspiração de interface;</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/html.png" alt="Logo HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/css.png" alt="Logo CSS">
+            </li>
+          </ul>
+        <div class="card__buttons">
+        <a href="https://milena-sam.github.io/-Recriando-o-Wikipedia-com-Layout-Moderno/" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+            <span>Prévia</span>
+            <i class="bi bi-arrow-up-right"></i>
+        </a>  
+        <a href="https://github.com/Milena-sam/-Recriando-o-Wikipedia-com-Layout-Moderno/tree/main" class="btn" target="_blank" rel="noopener noreferrer">
+            <span>Repositório</span>
+        </a>  
+        </div>
+        </div>
+      </div>
+      <a href="https://github.com/Milena-sam">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/foto.png" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Me chamo Milena, sou Analista de Telecomunicação Jr. com foco em STFC e MVNO, com experiência em análise de dados e processos no setor de telecomunicações. Sou formada em Gestão da Tecnologia da Informação e atualmente focada em expandir meus conhecimentos em programação por meio de estudos e projetos práticos.  Sou apaixonada por leitura, o que me permite expandir meu conhecimento e aprimorar minha capacidade crítica e criativa.</p> 
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/milena-sampaio" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Superior em Gestão da Tecnologia da Informação</h4>
+          <span>Fev/2022 - Set/2024</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>UniCesumar</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Analista JR. STFC e MVNO</h4>
+          <span>Desktop | Jul/2024 - Atualmente</span>
+          <span>Atuação com foco em sistemas da ABR Telecom, realizando a identificação e resolução de problemas relacionados à telefonia STFC e MVNO.</span>
+          <br>
+          <h4>Analista JR. NOC</h4>
+          <span>Desktop | Nov/2023 - Jul/2024</span>
+          <span>Responsável pelo monitoramento de rede utilizando ferramentas como Zabbix e Grafana. Atuação em tratativas de incidentes, identificação e resolução de problemas técnicos em tempo real, atendimento a clientes PJ.</span>
+        <br>
+          <h4>Analista de SAC (estágio, N1, N2 e N3)</h4>
+          <span>Desktop | Dez/2019 - Nov/2023</span>
+          <span>Atendimento ao cliente por ligação, WhatsApp, Reclame Aqui e ANATEL, atuando na resolução de problemas mais complexos, principalmente relacionados à internet. Responsável por tratativas de casos sensíveis e críticos, com foco na satisfação do cliente e cumprimento de prazos regulatórios. Realização de reversões e retenções, elaboração de planilhas de acompanhamento.</span>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Linux Fundamentos</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                FIAP | Mar 2025 40h.
+              </p>
+            </div>
+          </div>
+           <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>BI - Business Intelligence</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                FIAP | Maio 2025 40h.
+              </p>
+            </div>
+          </div>
+            <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>MikroTik</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Redes Brasil | Abr 2025 5h.
+              </p>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contato</h2>
+    <p>Estou disponível para serviços, aprendizados e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/Milena-sam" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/milena-sampaio" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:milenadasilvasampaio78@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">milenadasilvasampaio78@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2025. Todos os Direitos Reservados. Milena da Silva Sampaio. Desenvolvido por 
+      <a href="https://www.linkedin.com/in/milena-sampaio" target="_blank">MS</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
