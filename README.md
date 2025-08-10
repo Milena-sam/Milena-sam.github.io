@@ -6,8 +6,6 @@ Esse é meu portfólio front-end, feito para o Desafio da DIO.
 
 ## Tecnologias usadas
 
-## Tecnologias
-
 ![JavaScript](https://img.shields.io/badge/JAVASCRIPT-black?style=for-the-badge&logo=javascript)
 ![HTML5](https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=css3)
